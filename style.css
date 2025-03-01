@@ -118,7 +118,7 @@ body{
         flex-direction: row-reverse;
         /* grid-template-areas:
         'stats-text stats-img' ; */
-        width: 1450px;
+        width: 80%;
         height: 55vh;
 
 
