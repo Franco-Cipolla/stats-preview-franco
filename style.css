@@ -106,10 +106,46 @@ body{
 @media (min-width: 630px){
 
     body{
-        display: grid;
-        place-content: center;
+        display: flex;
         min-height: 100vh;
     }
+
+    .flex-container{
+        display: flex;
+        width: 1450px;
+
+
+    }
+    .card{
+        display: grid;
+        grid-template-areas:
+        'stats-text stats-img' ;
+        width: 1450px;
+        height: 50vh;
+
+
+    }
+
+    #stats-img{
+        display: grid;
+        grid-area: stats-img;
+
+    }
+
+    #stats-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    #stats-text{
+        display: grid;
+        grid-area: stats-text;
+        border: 1px solid white;
+
+
+    }
+
+
 
 }
 
