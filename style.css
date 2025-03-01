@@ -134,11 +134,12 @@ body{
         width: 1fr;
         height: 100%;
         border-radius: 0;
-        display: block;
+      
     }
     #stats-text{
 
         /* grid-area: stats-text; */
+
 
         width: 1fr;
         text-align: left;
