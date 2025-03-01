@@ -141,8 +141,12 @@ body{
         display: grid;
         grid-area: stats-text;
         border: 1px solid white;
-        margin-top: -470px;
+        padding: 2rem;
+    }
 
+    .numbers{
+        display: flex;
+        flex-direction: row;
     }
 
 
