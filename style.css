@@ -103,7 +103,7 @@ body{
     font-size: 12px;
 }
 
-@media (min-width: 630px){
+@media (min-width: 1200px){
 
     body{
         display: flex;
@@ -134,7 +134,7 @@ body{
         width: 1fr;
         height: 100%;
         border-radius: 0;
-      
+
     }
     #stats-text{
 
