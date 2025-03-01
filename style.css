@@ -149,14 +149,5 @@ body{
         font-size: 37px;
         padding: 3.5rem;
     }
-
-    .numbers{
-        display: flex;
-        /* flex-direction: row; */
-       justify-content: space-evenly;
-    }
-
-
-
 }
 
