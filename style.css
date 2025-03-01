@@ -147,8 +147,10 @@ ul{
 
     ul{
         display: flex;
-        gap: 2rem;
-        justify-content: space-evenly;
+        gap: 8rem;
+
+
+
 
     }
     #stats-text{
