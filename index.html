@@ -1,59 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <title>Frontend Mentor | Stats preview card component</title>
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="card">
+        <div id="stats-text">
+          <h1>Get <em>insights</em> that help your business grow.</h1>
 
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
 
-</head>
-<body>
-  <div class="flex-container">
-
-    <div class="card">
-
-      <div id="stats-img">
-
-        <img src="images/image-header-mobile.jpg" alt="" id="image-mobile">
-      </div>
-
-
-      <div id="stats-text">
-
-        <h1>Get <em>insights</em> that help your business grow.</h1>
-
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
-        experience, and overall efficiency.</p>
-
-        <div class="numbers">
-
-          <ul>
+          <div class="numbers">
             <div class="companies">
-              <li class="number">10k+</li>
-              <li class="theme">companies</li>
+              <p class="number">10k+</p>
+              <p class="theme">companies</p>
             </div>
 
             <div class="templates">
-              <li class="number">314</li>
-              <li class="theme">templates</li>
+              <p class="number">314</p>
+              <p class="theme">templates</p>
             </div>
 
             <div class="queries">
-              <li class="number">12m+</li>
-              <li class="theme">queries</li>
+              <p class="number">12m+</p>
+              <p class="theme">queries</p>
             </div>
-          </ul>
-
-
+          </div>
+        </div>
+        <div id="stats-img">
+          <img src="images/image-header-mobile.jpg" alt="" id="image-mobile" />
+        </div>
       </div>
     </div>
-
-  </div>
-
-
-</body>
+  </body>
 </html>
